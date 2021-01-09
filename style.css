@@ -144,7 +144,7 @@ main {
 
   transition: all 0.2s;
 
-  padding: 1.5rem 3rem;
+  padding: 1.5rem 4rem;
   border: none;
   border-radius: 1.2rem;
 }
@@ -287,4 +287,40 @@ main {
   line-height: 1.7rem;
 
   color: #333333;
+}
+
+/* FOOTER */
+.credits {
+  text-align: center;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+
+  color: #a9a9a9;
+
+  margin-top: 12rem;
+}
+
+/* SMARTPHONE OPTIMIZATION */
+@media (max-width: 37.5em) {
+  body {
+    margin: 2vh 2vw;
+  }
+
+  header {
+    margin-bottom: 2rem;
+  }
+
+  main {
+    flex-direction: column-reverse;
+  }
+
+  .forms {
+    width: 100%;
+  }
+
+  .items {
+    width: 100%;
+
+    margin-bottom: 3rem;
+  }
 }
