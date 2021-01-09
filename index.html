@@ -9,114 +9,119 @@
   </head>
   <body>
     <header>
-      <h1>Checkout</h1>
+      <h1 class="page-heading">Checkout</h1>
     </header>
 
     <main>
-      <section class="forms"></section>
-      <form>
-        <div class="contact-form">
-          <h2 class="form-heading">Contact Information</h2>
-          <div class="form-items">
-            <div class="form-item">
-              <label class="form-label" for="email">E-Mail</label>
-              <input
-                class="form-field"
-                type="email"
-                name="email"
-                placeholder="Enter your email..."
-                required
-              />
-            </div>
-            <div class="form-item">
-              <label class="form-label" for="phone">Phone</label>
-              <input
-                class="form-field"
-                type="tel"
-                name="phone"
-                placeholder="Enter your phone number..."
-                required
-              />
-            </div>
-          </div>
-        </div>
-        <div class="shipping-form">
-          <h2 class="form-heading">Shipping address</h2>
-          <div class="form-items">
-            <div class="form-item">
-              <label class="form-label" for="name">Full name</label>
-              <input
-                class="form-field"
-                type="text"
-                name="name"
-                placeholder="Enter your full name..."
-                required
-                value="Rodney Cotton"
-              />
-            </div>
-            <div class="form-item">
-              <label class="form-label" for="address">Address</label>
-              <input
-                class="form-field"
-                type="text"
-                name="address"
-                placeholder="Your address..."
-                required
-              />
-            </div>
-            <div class="form-item">
-              <label class="form-label" for="city">City</label>
-              <input
-                class="form-field"
-                type="text"
-                name="City"
-                placeholder="Your city..."
-                required
-              />
-            </div>
-            <div class="dual-form-items">
+      <section class="forms">
+        <form>
+          <div class="contact-form">
+            <h2 class="form-heading">Contact Information</h2>
+            <div class="form-items">
               <div class="form-item">
-                <label class="form-label" for="country">Country</label>
-                <select name="country" class="form-dropdown">
-                  <option value="" disabled selected>Your country...</option>
-                  <option value="armenia">Armenia</option>
-                  <option value="belgium">Belgium</option>
-                  <option value="cyprus">Cyprus</option>
-                  <option value="denmark">Denmark</option>
-                  <option value="estonia">Estonia</option>
-                  <option value="finland">Finland</option>
-                  <option value="germany">Germany</option>
-                </select>
-              </div>
-              <div class="form-item">
-                <label class="form-label" for="postal code">Address</label>
+                <label class="form-label" for="email">E-Mail</label>
                 <input
                   class="form-field"
-                  type="number"
-                  name="postal code"
-                  placeholder="Your postal code..."
+                  type="email"
+                  name="email"
+                  placeholder="Enter your email..."
+                  required
+                />
+              </div>
+              <div class="form-item">
+                <label class="form-label" for="phone">Phone</label>
+                <input
+                  class="form-field"
+                  type="tel"
+                  name="phone"
+                  placeholder="Enter your phone number..."
                   required
                 />
               </div>
             </div>
-            <div class="form-item">
-              <input
-                class="form-checkbox"
-                type="checkbox"
-                name="save information"
-              />
-              <label class="form-label" for="save Information"
-                >Save this information for next time</label
-              >
+          </div>
+          <div class="shipping-form">
+            <h2 class="form-heading">Shipping address</h2>
+            <div class="form-items">
+              <div class="form-item">
+                <label class="form-label" for="name">Full name</label>
+                <input
+                  class="form-field"
+                  type="text"
+                  name="name"
+                  placeholder="Enter your full name..."
+                  required
+                  value="Rodney Cotton"
+                />
+              </div>
+              <div class="form-item">
+                <label class="form-label" for="address">Address</label>
+                <input
+                  class="form-field"
+                  type="text"
+                  name="address"
+                  placeholder="Your address..."
+                  required
+                />
+              </div>
+              <div class="form-item">
+                <label class="form-label" for="city">City</label>
+                <input
+                  class="form-field"
+                  type="text"
+                  name="City"
+                  placeholder="Your city..."
+                  required
+                />
+              </div>
+              <div class="dual-form-items">
+                <div class="form-item">
+                  <label class="form-label" for="country">Country</label>
+                  <select name="country" class="form-dropdown">
+                    <option value="" disabled selected>Your country...</option>
+                    <option value="armenia">Armenia</option>
+                    <option value="belgium">Belgium</option>
+                    <option value="cyprus">Cyprus</option>
+                    <option value="denmark">Denmark</option>
+                    <option value="estonia">Estonia</option>
+                    <option value="finland">Finland</option>
+                    <option value="germany">Germany</option>
+                  </select>
+                </div>
+                <div class="form-item">
+                  <label class="form-label" for="postal code"
+                    >Postal Code</label
+                  >
+                  <input
+                    class="form-field"
+                    type="number"
+                    name="postal code"
+                    placeholder="Your postal code..."
+                    required
+                  />
+                </div>
+              </div>
+              <div class="form-item">
+                <input
+                  class="form-checkbox"
+                  type="checkbox"
+                  name="save information"
+                />
+                <label class="form-label" for="save Information"
+                  >Save this information for next time</label
+                >
+              </div>
             </div>
           </div>
-        </div>
-        <input class="form-submit-btn" type="submit" value="Continue" />
-      </form>
+          <div class="form-submit-btn-container">
+            <input class="form-submit-btn" type="submit" value="Continue" />
+          </div>
+        </form>
+      </section>
       <section class="items">
         <div class="item-list">
           <div class="item">
-            <img src="photo1.png" alt="item 1" class="item-img" />
+            <img src="img/photo1.png" alt="item 1" class="item-img" />
             <div class="item-details">
               <h4 class="item-name">Vintage Bag</h4>
               <div class="price">
@@ -125,13 +130,13 @@
               </div>
             </div>
             <div class="item-amount">
-              <span class="item-amount-minus">-</span
-              ><span class="item-amount-figure">1</span
-              ><span class="item-amount-plus">+</span>
+              <button class="item-amount-minus">-</button
+              ><input class="item-amount-figure" type="number" value="1" />
+              <button class="item-amount-plus">+</button>
             </div>
           </div>
           <div class="item">
-            <img src="photo2.png" alt="item 1" class="item-img" />
+            <img src="img/photo2.png" alt="item 1" class="item-img" />
             <div class="item-details">
               <h4 class="item-name">Levi Shoes</h4>
               <div class="price">
@@ -140,9 +145,9 @@
               </div>
             </div>
             <div class="item-amount">
-              <span class="item-amount-minus">-</span
-              ><span class="item-amount-figure">1</span
-              ><span class="item-amount-plus">+</span>
+              <button class="item-amount-minus">-</button
+              ><input class="item-amount-figure" type="number" value="1" />
+              <button class="item-amount-plus">+</button>
             </div>
           </div>
         </div>
