@@ -254,12 +254,19 @@ main {
 }
 
 .item-amount-figure {
+  font-family: Cabin, sans-serif;
   font-size: 1.6rem;
   line-height: 2rem;
+  text-align: center;
+
+  width: 30%;
 
   color: #333333;
 
-  margin: 0 2rem;
+  padding: 0.5rem;
+  border: none;
+  background: none;
+  margin: 0 1rem;
 }
 
 .total {

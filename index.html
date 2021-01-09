@@ -169,7 +169,7 @@
               </div>
               <div class="item-amount">
                 <button class="item-amount-decrement-btn">-</button
-                ><span class="item-amount-figure">1</span>
+                ><input type="number" class="item-amount-figure" value="1" />
                 <button class="item-amount-increment-btn">+</button>
               </div>
             </div>
@@ -186,7 +186,7 @@
               </div>
               <div class="item-amount">
                 <button class="item-amount-decrement-btn">-</button
-                ><span class="item-amount-figure">1</span>
+                ><input type="number" class="item-amount-figure" value="1" />
                 <button class="item-amount-increment-btn">+</button>
               </div>
             </div>
@@ -206,5 +206,13 @@
     </main>
 
     <footer class="credits">Nikolay Rademacher</footer>
+
+    <script>
+      const form = document.querySelector(".checkout");
+
+      form.addEventListener("submit", () => {
+        alert("Checkout successful!");
+      });
+    </script>
   </body>
 </html>
